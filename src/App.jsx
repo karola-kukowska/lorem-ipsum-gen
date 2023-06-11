@@ -1,4 +1,9 @@
+import Generator from "./Generator";
 const App = () => {
-  return <h2>Lorem Ipsum Starter</h2>;
+  return (
+    <main>
+      <Generator />
+    </main>
+  );
 };
 export default App;
